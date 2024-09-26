@@ -43,3 +43,88 @@ body
 {
     margin: 0;
 }
+
+/* slider image */
+
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    border: none; /* Remove border style */
+    vertical-align: middle; /* Align the image vertically */
+}
+.textonimage
+{
+    margin-top: 16px !important;
+    text-align: center !important;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.styletextonimage
+{
+    color: #fff !important;
+    font-size: 36px !important;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    text-align: center !important;
+    letter-spacing: 4px;
+    line-height: 1.5;
+}
+.BR
+{
+    color: #fff !important;
+    background-color: #000 !important;
+    padding: 10px 20px !important;
+    opacity: 0.75;
+    font-size: 36px !important;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    text-align: center !important;
+    letter-spacing: 4px;
+    line-height: 1.5;
+}
+.Architects
+{
+    color: #fff !important;
+    font-size: 36px !important;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    text-align: center !important;
+    letter-spacing: 4px;
+    line-height: 1.5;
+}
+@media (max-width: 600px) {
+    .BR {
+        font-size: 34px !important;
+        padding: 8px 16px !important;
+    }
+    .textonimage
+{
+    margin-top: 16px !important;
+    text-align: center !important;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    .Architects {
+        display: none; /* Hide the Architects class */
+    }
+}
+
+@media (max-width: 320px) {
+    .BR {
+        font-size: 18px !important;
+        padding: 6px 12px !important;
+    }
+}
+
+.Architects {
+    // ... existing properties ...
+    display: block; /* Show by default, will be hidden in media query */
+}
