@@ -1,0 +1,41 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    letter-spacing: 4px;
+}
+
+.navbar-item {
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px; /* Optional: Add padding for better click area */
+    display: block; /* Ensure the link fills the padding area */
+}
+
+.navbar-item:hover {
+    background-color: #cccccc; /* Add hover color */
+}
+
+.navbar-links {
+    display: flex;
+    gap: 16px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .navbar-links {
+        display: none; /* Hide links on small screens */
+    }
+}
