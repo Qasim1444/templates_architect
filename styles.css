@@ -182,9 +182,10 @@ body {
 }
 
 .Projects {
-    font-size: 24px;
+    
 
-    text-align: center !important;
+    font-size: 24px;
+    border-color: #f1f1f1 !important;
 
     line-height: 1.5;
     font-family: "Segoe UI", Arial, sans-serif;
@@ -192,32 +193,53 @@ body {
     margin: 10px 0;
     padding-top: 16px !important;
     padding-bottom: 16px !important;
+   float: left;
+  
+     width: 100%;
+     border-bottom: 1px solid #f1f1f1 !important;
+    
+    
 
-    float: left;
+     margin-left: 1em;
+     margin-right: 1em;
+    
 
+     margin-top: 50px;
+     margin-bottom: 42px;
+
+     
 
 }
 
 .projectsimags {
+    
+    display: flex;
+    flex-wrap: wrap;
     padding: 0 8px;
-    content: "";
-    display: table;
-    clear: both;
 }
 
 .projectsimags-col {
-    float: left;
-    width: 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
     padding: 0 8px;
     margin-bottom: 16px !important;
-
+    box-sizing: border-box;
 }
 
-@media (min-width: 601px) {
+@media (max-width: 993px) {
     .projectsimags-col {
-        width: 49.99999%;
+        flex: 0 0 50%;
+        max-width: 50%;
     }
 }
+@media (max-width: 600px) {
+    .projectsimags-col {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
 .projectsimags-col-caintainer
 {
     position: relative;
@@ -235,3 +257,29 @@ body {
     font-size: 15px;
     line-height: 1.5;
 }
+.About
+{
+    font-size: 24px;
+    border-color: #f1f1f1 !important;
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    
+    line-height: 1.5;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    border-bottom: 1px solid #ccc !important;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.Aboutp
+{
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+    
+}
+
