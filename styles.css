@@ -277,9 +277,80 @@ body {
 {
     margin-left: 1em;
     margin-right: 1em;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    
+ padding-left: 16px;
+ padding-right: 16px;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
     
 }
+.fourcard
+{
+    
+   margin-top:47px;
+    filter: grayscale(75%);
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    content: "";
+    display: table;
+    clear: both;
+    margin-left: 24px;
+}
 
+.fourcard-col
+{
+        padding:0 8px;
+    margin-bottom: 16px !important;
+    float: left;
+    width: 23.3%;
+
+}
+
+
+
+.fourcard-col h3{
+
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+    line-height: 1.5;
+
+    
+}
+.fourcard-col-p1{
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    opacity: 0.60;  
+}
+.fourcard-col-p1{
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    
+}
+.fourcard-col-btn
+{
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+    display: block;
+    width: 100%;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+ 
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    text-transform: none;
+    overflow: visible;  
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
