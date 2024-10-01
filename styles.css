@@ -306,7 +306,17 @@ body {
     width: 23.3%;
 
 }
+@media (max-width: 993px) {
+    .fourcard-col {
+        width: 47%;
+    }
+}
 
+@media (max-width: 601px) {
+    .fourcard-col {
+        width: 100%;
+    }
+}
 
 
 .fourcard-col h3{
