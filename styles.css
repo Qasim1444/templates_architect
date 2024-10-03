@@ -183,27 +183,23 @@ body {
 
 .Projects {
     
-
     font-size: 24px;
     border-color: #f1f1f1 !important;
-
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    
     line-height: 1.5;
     font-family: "Segoe UI", Arial, sans-serif;
     font-weight: 400;
     margin: 10px 0;
-    padding-top: 16px !important;
-    padding-bottom: 16px !important;
-   float: left;
-  
-     width: 100%;
-     border-bottom: 1px solid #f1f1f1 !important;
+    border-bottom: 1px solid #ccc !important;
+    margin-left: 1em;
+    margin-right: 1em;
     
     
 
-     margin-left: 1em;
-     margin-right: 1em;
-    
-
+     margin-left: 30px;
+   
      margin-top: 50px;
      margin-bottom: 42px;
 
@@ -215,7 +211,7 @@ body {
     
     display: flex;
     flex-wrap: wrap;
-    padding: 0 8px;
+    padding: 0 24px;
 }
 
 .projectsimags-col {
@@ -267,7 +263,8 @@ body {
     line-height: 1.5;
     font-family: "Segoe UI", Arial, sans-serif;
     font-weight: 400;
-    margin: 10px 0;
+    margin-top: 40px;
+    margin-bottom: 10px;
     border-bottom: 1px solid #ccc !important;
     margin-left: 1em;
     margin-right: 1em;
@@ -367,14 +364,14 @@ body {
 .Contact
 {
     border-color: #f1f1f1 !important;
-    padding-top: 16px !important;
+    padding-top: 46px !important;
     padding-bottom: 16px !important;
     border-bottom: 1px solid #ccc !important;   
     font-family: "Segoe UI", Arial, sans-serif;
     font-weight: 400;
     margin: 10px 0;
     font-size: 24px;
-    margin-left: 1em;
+    margin-left: 32px;
     margin-right: 1em;
 }
 .Name
@@ -448,11 +445,11 @@ body {
     font-family: Verdana, sans-serif;
     font-size: 15px;
     line-height: 1.5;
-    margin-left: 2.4em;
+    margin-left: 32px;
     
 }
 .imagecontainer{
-    padding: 0.01em 32px;
+    padding: 4px 32px;
     content: "";
     display: table;
     clear: both; 
