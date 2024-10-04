@@ -297,8 +297,9 @@ body {
 
 .fourcard-col
 {
-        padding:0 8px;
-    margin-bottom: 16px !important;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin-bottom: 16px !important;
     float: left;
     width: 23.3%;
 
@@ -306,12 +307,14 @@ body {
 @media (max-width: 993px) {
     .fourcard-col {
         width: 47%;
+      
     }
 }
 
 @media (max-width: 601px) {
     .fourcard-col {
-        width: 100%;
+        width: 90%;
+       
     }
 }
 
@@ -386,6 +389,7 @@ body {
     margin-left: 2.4em;
     margin-right: 2.4em;
 }
+
 .Email
 {
     width: 95%;
@@ -473,4 +477,5 @@ body {
     line-height: 1.5;
     display: block;
 }
+
 
